@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d0d0d;
+  color: #fff;
+  text-align: center;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+.hero {
+  background: linear-gradient(180deg, #000, #111);
+}
+
+.hero h1 {
+  font-size: 30px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.hero p {
+  margin: 20px 0;
+  color: #ccc;
+}
+
+.btn {
+  background: #00c853;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #00a844;
+}
+
+.problema p {
+  color: #ff5252;
+}
+
+.beneficios ul {
+  list-style: none;
+  padding: 0;
+}
+
+.beneficios li {
+  margin: 10px 0;
+}
+
+.prova {
+  background: #1a1a1a;
+}
+
+.cta {
+  background: #000;
+}
+
+footer {
+  padding: 20px;
+  background: #000;
+  color: #777;
+}
