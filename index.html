@@ -1,188 +1,196 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Renda Extra 2026 - 10 Métodos Comprovados</title>
-  <style>
-    /* Reset e base */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #111;
-      color: #fff;
-      line-height: 1.6;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reflexos do Sucesso</title>
 
-    /* Seções */
-    section {
-      padding: 60px 20px;
-    }
+<style>
 
-    /* HERO */
-    .hero {
-      background: linear-gradient(180deg, #000, #111);
-      text-align: center;
-      padding: 120px 20px;
-    }
-    .hero h1 {
-      font-size: 42px;
-      max-width: 700px;
-      margin: 0 auto 20px auto;
-      font-weight: bold;
-    }
-    .hero p {
-      margin: 20px auto;
-      color: #ccc;
-      font-size: 20px;
-      max-width: 600px;
-    }
-    .btn {
-      background: #c8bb00;
-      color: #fff;
-      padding: 18px 35px;
-      text-decoration: none;
-      border-radius: 10px;
-      display: inline-block;
-      font-weight: bold;
-      font-size: 18px;
-      transition: 0.3s;
-      margin-top: 20px;
-    }
-    .btn:hover {
-      background: #a5a800;
-    }
+:root {
+  --gold:#FFD700;
+  --gold-strong:#ffcc00;
+}
 
-    /* Problema */
-    .problema p {
-      color: #ff5252;
-      font-size: 18px;
-      margin-bottom: 20px;
-      text-align: center;
-    }
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Segoe UI',sans-serif;
+}
 
-    /* Benefícios */
-    .beneficios {
-      text-align: center;
-    }
-    .beneficios ul {
-      list-style: none;
-      padding: 0;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-    .beneficios li {
-      margin: 15px 0;
-      font-size: 18px;
-      position: relative;
-      padding-left: 25px;
-    }
-    .beneficios li::before {
-      content: "✔";
-      position: absolute;
-      left: 0;
-      color: #00c853;
-      font-weight: bold;
-    }
+body {
+  background: radial-gradient(circle at top,#111,#000);
+  color:white;
+}
 
-    /* Prova Social */
-    .prova {
-      background: #1a1a1a;
-      padding: 60px 20px;
-      text-align: center;
-    }
-    .prova h2 {
-      font-size: 28px;
-      margin-bottom: 20px;
-    }
-    .prova p {
-      font-size: 18px;
-      max-width: 600px;
-      margin: 0 auto 10px auto;
-      color: #ccc;
-    }
+.container {
+  max-width:1100px;
+  margin:auto;
+  padding:20px;
+}
 
-    /* CTA */
-    .cta {
-      background: #000;
-      text-align: center;
-      padding: 80px 20px;
-    }
-    .cta h2 {
-      font-size: 32px;
-      margin-bottom: 20px;
-    }
-    .cta p {
-      font-size: 20px;
-      margin-bottom: 30px;
-      color: #ccc;
-    }
+.hero {
+  text-align:center;
+  padding:100px 20px;
+}
 
-    /* Footer */
-    footer {
-      padding: 20px;
-      background: #000;
-      color: #777;
-      text-align: center;
-      font-size: 14px;
-    }
+.hero h1 {
+  font-size:clamp(32px,5vw,56px);
+  background: linear-gradient(90deg,var(--gold),#fff,var(--gold));
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
 
-    /* Responsivo */
-   { @media(max-width: 768px)}
-      .hero h1 { font-size: 32px; }
-      .hero p, .beneficios li, .prova p, .cta p { font-size: 16px; }
-      .btn { font-size: 16px; padding: 15px 25px; }
-  
-  </style>
+.hero p {
+  color:#aaa;
+  margin-top:15px;
+  font-size:18px;
+}
+
+.proof {
+  text-align:center;
+  margin-top:20px;
+  color:var(--gold);
+}
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:25px;
+  margin-top:60px;
+}
+
+.card {
+  background:linear-gradient(145deg,#111,#050505);
+  padding:25px;
+  border-radius:14px;
+  border:1px solid rgba(255,215,0,0.15);
+  transition:0.3s;
+}
+
+.card:hover {
+  transform:translateY(-6px);
+  border-color:rgba(255,215,0,0.4);
+}
+
+.card h3 {
+  color:var(--gold);
+}
+
+.card p {
+  color:#bbb;
+  margin:10px 0;
+}
+
+.badge {
+  display:inline-block;
+  font-size:12px;
+  background:var(--gold);
+  color:black;
+  padding:4px 8px;
+  border-radius:6px;
+  margin-bottom:8px;
+}
+
+.btn {
+  display:block;
+  margin-top:12px;
+  padding:12px;
+  background:linear-gradient(90deg,var(--gold),var(--gold-strong));
+  color:black;
+  text-align:center;
+  border-radius:8px;
+  font-weight:bold;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.btn:hover {
+  transform:scale(1.05);
+}
+
+.cta {
+  text-align:center;
+  margin-top:80px;
+  padding:50px;
+  border-radius:14px;
+  background:linear-gradient(145deg,#111,#000);
+  border:1px solid rgba(255,215,0,0.3);
+}
+
+.cta h2 {
+  color:var(--gold);
+}
+
+.cta p {
+  margin-top:10px;
+  color:#aaa;
+}
+
+</style>
 </head>
+
 <body>
 
-  <!-- HERO -->
-  <section class="hero">
-    <h1>Descubra 10 Métodos Comprovados para Ganhar Renda Extra em 2026</h1>
-    <p>Transforme seu tempo livre em dinheiro de forma prática e segura. Sem complicações, com estratégias testadas e resultados reais!</p>
-    <a href="#comprar" class="btn">Quero Ganhar Agora!</a>
-  </section>
+<div class="container">
 
-  <!-- PROBLEMA -->
-  <section class="problema">
-    <p>Cansado de ver seu salário não ser suficiente no final do mês?</p>
-  </section>
+<section class="hero">
+  <h1>Ou você muda… ou continua preso.</h1>
+  <p>O problema não é sua vida… é a forma como você pensa.</p>
+</section>
 
-  <!-- BENEFÍCIOS -->
-  <section class="beneficios">
-    <ul>
-      <li>Ganhe dinheiro usando seu celular ou computador</li>
-      <li>Passo a passo simples, sem experiência necessária</li>
-      <li>Aumente sua renda sem sair de casa</li>
-      <li>Estratégias atualizadas para 2026</li>
-      <li>Resultados rápidos e comprovados</li>
-    </ul>
-  </section>
+<div class="proof">
+🔥 Mais de 3.000 pessoas já começaram a mudar
+</div>
 
-  <!-- PROVA SOCIAL -->
-  <section class="prova">
-    <h2>Depoimentos Reais</h2>
-    <p>"Seguindo os métodos, consegui pagar minhas dívidas em apenas 2 meses!" – João S.</p>
-    <p>"Nunca imaginei que seria tão fácil ganhar dinheiro extra sem sair de casa." – Maria F.</p>
-    <p>"Excelente material, super prático e objetivo." – Carlos R.</p>
-  </section>
+<div class="grid">
 
-  <!-- CALL TO ACTION -->
-  <section class="cta" id="comprar">
-    <h2>Comece Agora Mesmo!</h2>
-    <p>Não perca mais tempo. Cada dia que passa é dinheiro que você deixa de ganhar.</p>
-    <a href="https://go.hotmart.com/N105225970R?dp=1" class="btn">Quero Acessar os 10 Métodos</a>
-  </section>
+<div class="card">
+  <span class="badge">Mais vendido</span>
+  <h3>Psicologia Financeira</h3>
+  <p>Você não perde dinheiro por falta de oportunidade. Perde por comportamento.</p>
+  <a href="https://meli.la/1mXLK8y" target="_blank" class="btn">
+    PARAR DE PERDER DINHEIRO AGORA
+  </a>
+</div>
 
-  <!-- FOOTER -->
-  <footer>
-    &copy; 2026 Renda Extra 2026 - Todos os direitos reservados
-  </footer>
+<div class="card">
+  <span class="badge">Alta transformação</span>
+  <h3>A Chave do Autocontrole</h3>
+  <p>Se você não se controla, qualquer coisa te derruba.</p>
+  <a href="https://meli.la/2C8kqNj" target="_blank" class="btn">
+    ASSUMIR CONTROLE DA SUA VIDA
+  </a>
+</div>
+
+<div class="card">
+  <span class="badge">Clássico</span>
+  <h3>Mente Milionária</h3>
+  <p>Sua renda é reflexo direto da sua mentalidade.</p>
+  <a href="https://meli.la/2vXNVYt" target="_blank" class="btn">
+    REPROGRAMAR SUA MENTE AGORA
+  </a>
+</div>
+
+<div class="card">
+  <span class="badge">Impacto forte</span>
+  <h3>Mais Esperto que o Diabo</h3>
+  <p>Você está sendo controlado… e nem percebe.</p>
+  <a href="https://meli.la/1paMt1u" target="_blank" class="btn">
+    QUEBRAR ESSE CONTROLE AGORA
+  </a>
+</div>
+
+</div>
+
+<section class="cta">
+  <h2>Você já sabe o que precisa fazer.</h2>
+  <p>A questão é: vai agir ou continuar adiando?</p>
+</section>
+
+</div>
 
 </body>
 </html>
